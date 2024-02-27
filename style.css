@@ -47,10 +47,12 @@ body {
 
 .imagesectionone {
     display: flex;
-    text-align: center;
-    text-align: center;
-    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
     background-color: #E5E7EB;
+    flex-shrink: 0;
 }
 
 .awesometext {
@@ -90,6 +92,7 @@ body {
 .sectiontwo {
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
 }
 
 .container {
@@ -154,6 +157,7 @@ body {
 
 .quoter {
     width: 700px;
+    flex-shrink: 1;
     text-align: right;
     font-size: 18px;
     font-weight: bold;
